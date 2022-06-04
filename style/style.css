@@ -36,7 +36,7 @@ h1 span {
 h2 {
     font-family: 'Lora', serif, arial;
     text-transform: uppercase;
-    margin-top: -25px;
+    margin-top: -10px;
     font-size: 19px;
     letter-spacing: 4px;
 }
@@ -321,6 +321,15 @@ a:hover {
 }
 
 @media (max-width: 800px) {
+    h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 17px;
+        text-transform: none;
+    }
     .social-media {
         display: flex;
         flex-direction: column;
@@ -342,6 +351,7 @@ a:hover {
     .card {
         height: 250px;
         width: 250px;
+        font-size: 20px;
     }
 
     .card-text {
@@ -353,5 +363,10 @@ a:hover {
     .card:hover > .card-wrapper::before {
         height: 190px;
         width: 190px;
+    }
+
+    .footer {
+        font-size: 13px;
+        text-align: center;
     }
 }
